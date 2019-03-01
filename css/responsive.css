@@ -1,0 +1,32 @@
+@media all and (min-width: 992px){
+    body{
+        height: 100%;  
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+
+    .content{
+        flex-direction: row-reverse;
+    }
+
+    footer{
+        background-color: grey;
+    }
+    .left{
+        
+    }
+}
+
+@media all and (max-width: 768px){
+    .content{
+        flex-direction: column;
+    }
+    .middle{
+        order: -1;
+    }
+    .left,.right, .middle{
+        height: 150px;
+        width: auto;      
+    }
+}

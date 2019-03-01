@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Verdana', sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: orangered;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    top: 0;
+    z-index: 1;
+}
+
+.content{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    text-align: center;
+    overflow: none;
+    height: 70vh;
+}
+ 
+.left{
+    background-color: green;
+    flex: none;
+    width: 130px;
+}
+
+.right{
+    background-color: pink;
+    flex: none;
+    width: 130px;
+}
+
+.middle{
+    background-color: aqua;
+    flex: 2;
+    
+}
+
+
+footer{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
